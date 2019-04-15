@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> MON CV</title>
+		
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+	</head>
+	
+	<body>
+		<!-- BANNIERE -->
+		<section class="container-fluid banner">
+			<div class="ban">
+				<img src="img/ban1.jpg" alt="banniere du site" />
+			</div>
+			<div class="inner-banner">
+				<h1> Voici mon cv </h1>
+				<button class="btn btn-custom"> Contactez moi ! </button>
+			</div>
+		</section>
+		
+		<header class="container-fluid header">
+			<div class="container">
+				<a href="index.html" class="logo"> Mon portfolio </a>
+				<nav class="menu">
+				<a href="index.html"> ACCUEIL </a>
+				<a href="#cv"> MON CV </a>
+				<a href="#contact"> CONTACT </a>
+			</div>
+		</header>
+		
+				<!-- MON CV -->
+		<section class="container-fluid filiere">
+		<div class="container">
+			<div class="row">
+				<h2 id="cv"> </h2>
+				<article class="col-md-2 col-lg-2 col-xs-12 col-sm-12">
+				</article>
+				<article class="col-md-10 col-lg-9 col-xs-12 col-sm-12">
+					<h2> Mon cv </h2>
+					<hr class="separator">
+					<p>
+					<embed src="cv1.pdf" width=810 height=1200 type='application/pdf'/>
+					Téléchargez le fichier PDF ici : <a href="cv1.pdf" title="Pdf">CV_INTHASAKUBOL_Calvin</a>
+					</p>
+				</article>
+				<article class="col-md-1 col-lg-1 col-xs-12 col-sm-12">
+				</article>
+			</div>
+		</div>
+		</section>
+		<!-- FOOTER -->
+		<footer class="container-fluid footer">
+			<div class="ban2">
+				<img src="img/ban2.jpg" alt="footer" />
+			</div>
+			<div class="container">
+				<div class="row">
+				<h2 id="contact"> Envoyez moi un message ! </h2>
+				<hr class="separator">
+					<div class="col-sm-4">
+						<hr>
+						<address>
+						<strong>INTHASAKUBOL Calvin</strong><br/><br/>
+						<strong>Mail:</strong> <a href="mailto:cal.inthapro@gmail"> cal.inthapro@gmail.com</a><br><br>
+						<strong>Tél:</strong> 06 13 77 21 83
+						</address>
+					</div>
+    
+				<div class="col-sm-8 contact-form">
+					<form id="contact" method="post" class="form" role="form">
+						<div class="row">
+							<div class="col-xs-6 col-md-6 form-group">
+								<input class="form-control" id="name" name="name" placeholder="Nom" type="text" required autofocus />
+							</div>
+							<div class="col-xs-6 col-md-6 form-group">
+								<input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+							</div>
+						</div>
+						<textarea class="form-control" id="message" name="message" placeholder="Message" rows="5"></textarea>
+						<br/>
+						<div class="row">
+							<div class="col-xs-12 col-md-12 form-group">
+								<button class="btn btn-primary pull-right" type="submit">Envoyer !</button>
+							</div>
+						</div>
+					</form>
+				</div>
+				</div>
+			</div>
+		</footer>
+		
+		
+	</body>
+</html>

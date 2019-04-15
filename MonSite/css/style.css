@@ -1,0 +1,202 @@
+@@charset "UTF-8";
+
+/* font-family: 'Libre Baskerville', serif; */
+/* foncée #0E2908*/
+/* moins foincée #0E5E08*/
+/* gris #868C85*/
+/*-------------------------------------------------------------------------*/
+
+@font-face {
+	font-family: 'Libre Baskerville';
+	src: 'font/LibreBaskerville-Regular.ttf';
+}
+
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+.separator {
+	height: 4px;
+	width: 35%;
+	border:none;
+	box-shadow: none;
+	background-color:#0E2908;
+}
+
+/*-------------------------------------------------------------------------*/
+
+.header {
+	background-color: #0E2908;
+	height: 70px;
+	line-height: 70px;
+}
+
+.logo {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	float: left;
+}
+
+.menu {
+	float: right;
+}
+
+.menu a {
+	color: #ffffff;
+	margin-right: 20px;
+}
+
+.menu a:hover {
+	color: #0E5E08;
+}
+
+.banner {
+	width: 100%;
+	max-width: 100%;
+}
+
+.ban {
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+}
+
+.ban img {
+	width: 100%;
+	max-width: 100%;
+}
+
+.inner-banner {
+	position: absolute;
+	top: 30%;
+	width: 100%;
+	text-align: center;
+}
+
+.inner-banner h1 {
+	color: #ffffff;
+	text-shadow:1px 1px 20px #000000;
+}
+
+.inner-banner .btn-custom {
+	background-color: #0E2908;
+	color: #ffffff;
+}
+
+.inner-banner .btn-custom:hover {
+	background-color: #0E5E08;
+}
+
+/*-------------------------------------------------------------------------*/
+
+#about {
+	color: #ffffff;
+	text-align: center;
+}
+
+.about article {
+	margin-top: 0%;
+	margin-bottom: 10%;
+}
+
+.about article h2 {
+	text-align:center
+}
+
+/*-------------------------------------------------------------------------*/
+
+.filiere {
+	background-color: #eeeeee;
+}
+
+.filiere article {
+	margin-top: 0%;
+	margin-bottom: 10%;
+}
+
+.filiere article h2 {
+	text-align:center
+}
+
+/*-------------------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------------------*/
+.center{
+	text-align:center;
+}
+.portfolio {
+	background-color: #ffffff;
+	height: 400px;
+}
+
+.portefolio div h2 {
+	text-align:center
+}
+
+.portfolio .item-folio {
+	height: 250px;
+	background-color: #eeeeee;
+}
+
+.portfolio .item-folio img {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	width: 100%;
+	max-width: 100%;
+}
+
+.portfolio a {
+	color: #ffffff;
+	text-align: center;
+	background-color: #0E2908;
+}
+
+.portfolio a:hover {
+	background-color: #0E5E08;
+}
+
+
+/*-------------------------------------------------------------------------*/
+
+.ban2 img {
+	width: 100%;
+	max-width: 100%;
+}
+
+/*-------------------------------------------------------------------------*/
+
+.footer {
+	background-color: #0E2908;
+}
+
+#contact {
+	color: #ffffff;
+	text-align: center;
+}
+
+/*-------------------------------------------------------------------------*/
+
+.slides {
+	width: calc(500px * 3);
+}
+
+.slide {
+	float: left;
+}
+
